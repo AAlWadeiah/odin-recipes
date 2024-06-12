@@ -1,2 +1,2 @@
-# odin-recipes
-Project for HTML Foundations section: Recipes Website
+# Project for HTML Foundations section: Recipes Website
+
