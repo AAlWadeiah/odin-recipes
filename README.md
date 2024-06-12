@@ -6,3 +6,5 @@ During this project, I was able to practice and demonstrate the following skills
 - How to setup and structure simple webpage project
 - How to use important HTML tags and structure an HTML document
 - How to format and organize text on an HTML
+
+Link to project description: https://www.theodinproject.com/lessons/foundations-recipes
