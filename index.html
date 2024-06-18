@@ -7,13 +7,19 @@
     <title>My Favorite Recipes</title>
   </head>
   <header>
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
     <h1 class="main-heading" id="homepage-title">
       <span>My Favorite Recipes</span>
     </h1>
   </header>
   <body>
     <p>Checkout these recipes and let me know which one you liked the most!</p>
-    <div class="card-container">
+    <!-- <div class="card-container">
       <div class="card u-clearfix">
         <div class="card-body">
           <span class="card-number card-circle subtle">01</span>
@@ -86,9 +92,62 @@
         />
       </div>
       <div class="card-shadow"></div>
+    </div> -->
+
+    <div class="recipe-list">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title">Musakhan</h2>
+          <span class="card-description">
+            A signature Palestinian dish bringing the flavors of Palestine
+            together into one delicious meal: olive oil and sumac.
+          </span>
+          <a class="card-read" href="./recipes/musakhan.html">Read</a>
+        </div>
+        <img
+          src="./img/Musakhan-Sumac-Chicken-Recipe-7.jpg"
+          alt="A prepared Musakhan dish showing caramelized onions, browned chicken, and pine nuts all on top of toasted flatbread"
+          width="190"
+          class="card-media"
+        />
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title">Maqluba</h2>
+          <span class="card-description">
+            A well-rounded dish containing rice, meat, and vegetables, there is
+            never a wrong time to share this dish with family and friends.
+          </span>
+          <a class="card-read" href="./recipes/maqluba.html">Read</a>
+        </div>
+        <img
+          src="./img/Maqluba-New-1-1024x1536.webp"
+          alt="A prepared Musakhan dish showing caramelized onions, browned chicken, and pine nuts all on top of toasted flatbread"
+          width="190"
+          class="card-media"
+        />
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title">Moussaka</h2>
+          <span class="card-description">
+            For those who truly love eggplants, this dish will surely satisfy
+            any urges for a delicious Umami dish also containing tomatoes and
+            ground beef.
+          </span>
+
+          <a class="card-read" href="./recipes/moussaka.html">Read</a>
+        </div>
+        <img
+          src="./img/Moussaka-2.jpg"
+          alt="A prepared Musakhan dish showing caramelized onions, browned chicken, and pine nuts all on top of toasted flatbread"
+          width="190"
+          class="card-media"
+        />
+      </div>
     </div>
 
-    <!-- <ul id="recipe-list">
+    <!-- <ul>
       <li>
         <a href="./recipes/musakhan.html">Musakhan</a>
       </li>
